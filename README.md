@@ -6,6 +6,8 @@
 
 [Download's Page](https://www.virtualbox.org/)
 
+#### Note: Use older version if the above versions are not compatable with each other 
+
 ### Tips :
 
 1.If you wish to use VirtualBox on Windows, you must ensure that Hyper-V is not enabled on Windows. You can turn off the feature by running this Powershell command:

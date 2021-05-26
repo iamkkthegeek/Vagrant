@@ -11,7 +11,7 @@
 ### Tips :
 
 1.If you wish to use VirtualBox on Windows, you must ensure that Hyper-V is not enabled on Windows. You can turn off the feature by running this Powershell command:
-  - Disable-WindowsOptionalFeature -> Online -> FeatureName -> Microsoft-Hyper-V -> All
+  - `Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Hypervisor`
 
 2.You can also disable it by going through the Windows system settings:
   - Right click on the Windows button and select ‘Apps and Features’.

@@ -3,31 +3,31 @@ Vagrant.configure("2") do |config|
     {
       :hostname => "vm1",
       :box => "bento/ubuntu-18.04",
-      :ip => "192.168.56.101",
+      :ip => "192.x.x.101",
       :ssh_port => '2215'
     },
     {
       :hostname => "vm2",
       :box => "bento/ubuntu-18.04",
-      :ip => "192.168.56.101",
+      :ip => "192.x.x.101",
       :ssh_port => '2210'
     },
     {
       :hostname => "vm3",
       :box => "bento/ubuntu-18.04",
-      :ip => "192.168.56.102",
+      :ip => "192.x.x.102",
       :ssh_port => '2211'
     },
     {
       :hostname => "web02",
       :box => "bento/ubuntu-18.04",
-      :ip => "192.168.56.103",
+      :ip => "192.x.56.103",
       :ssh_port => '2212'
     },
     {
       :hostname => "loadbalancer",
       :box => "bento/ubuntu-18.04",
-      :ip => "192.168.56.104",
+      :ip => "192.x.56.104",
       :ssh_port => '2213'
     }
 

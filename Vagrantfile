@@ -21,13 +21,13 @@ Vagrant.configure("2") do |config|
     {
       :hostname => "web02",
       :box => "bento/ubuntu-18.04",
-      :ip => "192.x.56.103",
+      :ip => "192.x.x.103",
       :ssh_port => '2212'
     },
     {
       :hostname => "loadbalancer",
       :box => "bento/ubuntu-18.04",
-      :ip => "192.x.56.104",
+      :ip => "192.x.x.104",
       :ssh_port => '2213'
     }
 

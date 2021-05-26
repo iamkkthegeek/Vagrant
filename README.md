@@ -9,27 +9,26 @@
 ### Tips :
 
 1.If you wish to use VirtualBox on Windows, you must ensure that Hyper-V is not enabled on Windows. You can turn off the feature by running this Powershell command:
--> Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
+  - Disable-WindowsOptionalFeature -> Online -> FeatureName -> Microsoft-Hyper-V -> All
 
-#You can also disable it by going through the Windows system settings:
- Right click on the Windows button and select ‘Apps and Features’.
- Select Turn Windows Features on or off.
- Unselect Hyper-V and click OK.
+2.You can also disable it by going through the Windows system settings:
+  - Right click on the Windows button and select ‘Apps and Features’.
+  - Select Turn Windows Features on or off.
+  - Unselect Hyper-V and click OK.
 
+---
 
-===========================================================
-
-### Vagrant boxes link : 
+### Vagrant boxes download link : 
 
 [Download's Page](https://app.vagrantup.com/boxes/search)
 
+---
 
+###Example of installing a Centos7 box 
 
-============================================================
-####Example of installing a Centos7 box 
+Initialize the VM using `vagrant init`
+-- `vagrant init geerlingguy/centos7`
 
-
-#### Installing steps Centos7 using Vagrant on Windows Machine
--> vagrant init geerlingguy/centos7 
--> vagrant up 
+Command to bring the box up
+-- `vagrant up`
 

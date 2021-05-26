@@ -24,11 +24,11 @@
 
 ---
 
-###Example of installing a Centos7 box 
+### Example of installing a Centos7 box 
 
 Initialize the VM using `vagrant init`
--- `vagrant init geerlingguy/centos7`
+  -- `vagrant init geerlingguy/centos7`
 
 Command to bring the box up
--- `vagrant up`
+  -- `vagrant up`
 
